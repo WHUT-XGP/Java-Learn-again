@@ -5,6 +5,9 @@ import jdk.nashorn.internal.objects.Global;
 import java.util.Scanner;
 
 public class Main {
+    public void run(){
+        System.out.println("test run ");
+    }
     public static void main(String[] args) {
         // long占据8个字节同时赋值时必须在后面加上L符号作为标记
         long count = 110000000000000000L;
